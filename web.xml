@@ -1,0 +1,18 @@
+<web-app>
+    <servlet>
+        <servlet-name>controller</servlet-name>
+        <servlet-class>ControllerServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>checker</servlet-name>
+        <servlet-class>AreaCheckServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>controller</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>checker</servlet-name>
+        <url-pattern>/script/</url-pattern>
+    </servlet-mapping>
+</web-app>
